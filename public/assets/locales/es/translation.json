@@ -1,0 +1,62 @@
+{
+  "navbar": {
+    "home": "Portfolio",
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "Hola, soy Michael",
+    "description": "Soy un desarrollador full-stack con 5 años de experiencia en el desarrollo de aplicaciones web y móviles. Utilizo principalmente React para el desarrollo frontend y Node.js para el desarrollo backend. Mi experiencia incluye la creación de interfaces de usuario receptivas e intuitivas y la gestión de bases de datos.",
+    "get_in_touch": "Ponte en contacto."
+  },
+  "about": {
+    "title": "Acerca de",
+    "frontend_exp": "Desarrollador Frontend",
+    "frontend_exp_desc": "Como desarrollador frontend, me especializo en la creación de sitios web receptivos y altamente optimizados. Mi experiencia radica en la creación de interfaces de usuario intuitivas que mejoran la experiencia y el compromiso del usuario.",
+    "backend_exp": "Desarrollador Backend",
+    "backend_exp_desc": "Con un enfoque en el desarrollo backend, sobresalgo en la construcción de sistemas backend rápidos y eficientes y APIs. Prioritizo la escalabilidad y el rendimiento para garantizar una arquitectura backend robusta que soporte aplicaciones complejas.",
+    "ui_exp": "Diseñador UI",
+    "ui_exp_desc": "Como diseñador UI, tengo un sólido portafolio de diseño de páginas de aterrizaje impactantes e implementación de sistemas de diseño completos. Mi enfoque combina estética con usabilidad, buscando crear experiencias digitales visualmente atractivas y fáciles de usar."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "history": {
+      "microsoftDynamics": {
+        "role": "Desarrollador de CRM Microsoft Dynamics",
+        "organisation": "Espace Proprio",
+        "startDate": "Abril 2022",
+        "endDate": "Septiembre 2023",
+        "experiences": [
+          "Configuré y desarrollé soluciones dentro de Microsoft Dynamics CRM.",
+          "Aseguré el mantenimiento, la evolución y el rendimiento óptimo de las soluciones implementadas.",
+          "Redacté planes de despliegue para las soluciones y los comuniqué eficazmente.",
+          "Documenté la implementación detallada de funcionalidades de CRM."
+        ]
+      },
+      "bellRandstad": {
+        "role": "Desarrollador .Net",
+        "organisation": "Bell - Randstad, proyecto: CHU de Québec",
+        "startDate": "Diciembre 2021",
+        "endDate": "Marzo 2022",
+        "experiences": [
+          "Diseñé e implementé pruebas de interfaz de usuario utilizando Telerik Test Studio.",
+          "Especializado en aplicaciones .NET, Crystal-Net.",
+          "Colaboré dentro de un equipo de desarrollo ágil."
+        ]
+      },
+      "charlesRiver": {
+        "role": "Desarrollador .Net",
+        "organisation": "Charles River Laboratories",
+        "startDate": "Febrero 2016",
+        "endDate": "Mayo 2021",
+        "experiences": [
+          "Desarrollé interfaces frontend y backend utilizando React, Vue.js o Angular.",
+          "Personalicé temas de Drupal y WordPress para satisfacer las necesidades del cliente.",
+          "Contribuí a la comunidad técnica a través del intercambio de conocimientos y la documentación."
+        ]
+      }
+    }
+  }
+}

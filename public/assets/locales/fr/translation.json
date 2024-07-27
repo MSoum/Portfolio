@@ -1,0 +1,62 @@
+{
+  "navbar": {
+    "home": "Portfolio",
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Bonjour, je suis Michael",
+    "description": "Je suis développeur full-stack avec 5 ans d'expérience dans le développement d'applications web et mobiles. J'utilise principalement React pour le développement frontend et Node.js pour le développement backend. Mon expertise inclut la création d'interfaces utilisateur réactives et intuitives et la gestion des bases de données.",
+    "get_in_touch": "Entrer en contact."
+  },
+  "about": {
+    "title": "À propos",
+    "frontend_exp": "Développeur Frontend",
+    "frontend_exp_desc": "En tant que développeur frontend, je me spécialise dans la création de sites web réactifs et hautement optimisés. Mon expertise réside dans la création d'interfaces utilisateur intuitives qui améliorent l'expérience utilisateur et l'engagement.",
+    "backend_exp": "Développeur Backend",
+    "backend_exp_desc": "Avec un focus sur le développement backend, j'excelle dans la construction de systèmes backend rapides et efficaces et d'APIs. Je privilégie la scalabilité et les performances pour garantir une architecture backend robuste qui soutient des applications complexes.",
+    "ui_exp": "Designer UI",
+    "ui_exp_desc": "En tant que designer UI, je dispose d'un portfolio solide de conception de pages de destination percutantes et de mise en œuvre de systèmes de design complets. Mon approche allie esthétique et convivialité, visant à créer des expériences numériques visuellement attrayantes et faciles à utiliser."
+  },
+  "experience": {
+    "title": "Expérience",
+    "history": {
+      "microsoftDynamics": {
+        "role": "Développeur CRM Microsoft Dynamics",
+        "organisation": "Espace Proprio",
+        "startDate": "Avril 2022",
+        "endDate": "Septembre 2023",
+        "experiences": [
+          "Configuré et développé des solutions au sein de Microsoft Dynamics CRM.",
+          "Assuré la maintenance, l'évolution et la performance optimale des solutions mises en œuvre.",
+          "Rédigé des plans de déploiement pour les solutions et les ai communiqués efficacement.",
+          "Documenté la mise en œuvre détaillée des fonctionnalités CRM."
+        ]
+      },
+      "bellRandstad": {
+        "role": "Développeur .Net",
+        "organisation": "Bell - Randstad, projet : CHU de Québec",
+        "startDate": "Décembre 2021",
+        "endDate": "Mars 2022",
+        "experiences": [
+          "Conçu et implémenté des tests d'interface utilisateur à l'aide de Telerik Test Studio.",
+          "Spécialisé dans les applications .NET, Crystal-Net.",
+          "Collaboré au sein d'une équipe de développement agile."
+        ]
+      },
+      "charlesRiver": {
+        "role": "Développeur .Net",
+        "organisation": "Charles River Laboratories",
+        "startDate": "Février 2016",
+        "endDate": "Mai 2021",
+        "experiences": [
+          "Développé des interfaces frontend et backend à l'aide de React, Vue.js, ou Angular.",
+          "Personnalisé des thèmes Drupal et WordPress pour répondre aux besoins des clients.",
+          "Contribué à la communauté technique par le partage de connaissances et la documentation."
+        ]
+      }
+    }
+  }
+}

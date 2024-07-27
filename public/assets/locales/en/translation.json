@@ -1,0 +1,94 @@
+{
+  "navbar": {
+    "home": "Portfolio",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Hi, I'm Michael",
+    "description": "I am a full-stack developer with 5 years of experience in developing web and mobile applications. I primarily use React for frontend development and Node.js for backend development. My expertise includes creating responsive and intuitive user interfaces and managing databases.",
+    "get_in_touch": "Get in Touch."
+  },
+  "about": {
+    "title": "About",
+    "frontend_exp": "Frontend Developer",
+    "frontend_exp_desc": "As a frontend developer, I specialize in creating responsive and highly optimized websites. My expertise lies in crafting intuitive user interfaces that enhance user experience and engagement.",
+    "backend_exp": "Backend Developer",
+    "backend_exp_desc": "With a focus on backend development, I excel in building fast and efficient backend systems and APIs. I prioritize scalability and performance to ensure robust backend architecture that supports complex applications.",
+    "ui_exp": "UI Designer",
+    "ui_exp_desc": "As a UI designer, I have a strong portfolio of designing impactful landing pages and implementing comprehensive design systems. My approach blends aesthetics with usability, aiming to create visually appealing and user-friendly digital experiences."
+  },
+  "experience": {
+    "title": "Experience",
+    "history": {
+      "microsoftDynamics": {
+        "role": "Microsoft Dynamics CRM Developer",
+        "organisation": "Espace Proprio",
+        "startDate": "April 2022",
+        "endDate": "September 2023",
+        "experiences": [
+          "Configured and developed solutions within Microsoft Dynamics CRM.",
+          "Ensured the maintenance, evolution, and optimal performance of implemented solutions.",
+          "Wrote deployment plans for solutions and effectively communicated them.",
+          "Documented the detailed implementation of CRM functionalities."
+        ]
+      },
+      "bellRandstad": {
+        "role": "Développeur .Net",
+        "organisation": "Bell - Randstad, projet : CHU de Québec",
+        "startDate": "December 2021",
+        "endDate": "March 2022",
+        "experiences": [
+          "Designed and implemented user interface tests using Telerik Test Studio.",
+          "Specialized in .NET application, Crystal-Net.",
+          "Collaborated within an agile development team."
+        ]
+      },
+      "charlesRiver": {
+        "role": "Développeur .Net",
+        "organisation": "Charles River Laboratories",
+        "startDate": "February 2016",
+        "endDate": "May 2021",
+        "experiences": [
+          "Developed front-end and back-end interfaces using React, Vue.js, or Angular.",
+          "Customized Drupal and WordPress themes to meet client needs.",
+          "Contributed to the technical community through knowledge sharing and documentation."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "skills": {
+      "Tic_Tac_Toe": {
+        "title": "Tic Tac Toe",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "imageAlt": "Image of Tic Tac Toe"
+      },
+      "Project_B": {
+        "title": "Project B",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "imageAlt": "Image of Project B"
+      },
+      "Project_C": {
+        "title": "Project C",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "imageAlt": "Image of Project C"
+      }
+    },
+    "demoLink": "Demo",
+    "sourceLink": "Source"
+  },
+  "skills": {
+    "React": "React",
+    "Express": "Express",
+    "Node": "Node",
+    "Sass": "Sass"
+  },
+  "contact": {
+    "title": "Contact",
+    "memo": "Feel free to reach out!"
+  }
+}
