@@ -6,9 +6,9 @@ import i18next from 'i18next';
 import cookies from 'js-cookie';
 import classNames from 'classnames';
 //import 'bootstrap/dist/css/bootstrap.min.css'
-//import 'flag-icon-css/css/flag-icon.min.css'
+// Direct import of CSS
+import '../../../node_modules/flag-icon-css/css/flag-icons.css';
 
-//import MyComponent from "flag-icon-css/css/flag-icon.min.css"; 
 
 export const Navbar = () => {
   const { t } = useTranslation();
@@ -96,7 +96,7 @@ export const Navbar = () => {
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <span className="dropdown-item-text">{t('language')}</span>
+                //<span className="dropdown-item-text">{t('language')}</span>
               </li>
               {languages.map(({ code, name, country_code }) => (
                 <li key={country_code}>
