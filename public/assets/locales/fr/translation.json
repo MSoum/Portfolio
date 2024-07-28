@@ -8,30 +8,30 @@
   },
   "hero": {
     "name": "Bonjour, je suis Michael",
-    "description": "Je suis développeur full-stack avec 5 ans d'expérience dans le développement d'applications web et mobiles. J'utilise principalement React pour le développement frontend et Node.js pour le développement backend. Mon expertise inclut la création d'interfaces utilisateur réactives et intuitives et la gestion des bases de données.",
-    "get_in_touch": "Entrer en contact."
+    "description": "Je suis un développeur full-stack avec 5 ans d'expérience dans le développement d'applications web et mobiles. J'utilise principalement React pour le développement frontend et Node.js pour le développement backend. Mon expertise comprend la création d'interfaces utilisateur réactives et intuitives et la gestion des bases de données.",
+    "get_in_touch": "Contactez-moi."
   },
   "about": {
     "title": "À propos",
     "frontend_exp": "Développeur Frontend",
-    "frontend_exp_desc": "En tant que développeur frontend, je me spécialise dans la création de sites web réactifs et hautement optimisés. Mon expertise réside dans la création d'interfaces utilisateur intuitives qui améliorent l'expérience utilisateur et l'engagement.",
+    "frontend_exp_desc": "En tant que développeur frontend, je me spécialise dans la création de sites web réactifs et hautement optimisés. Mon expertise réside dans la conception d'interfaces utilisateur intuitives qui améliorent l'expérience utilisateur et l'engagement.",
     "backend_exp": "Développeur Backend",
-    "backend_exp_desc": "Avec un focus sur le développement backend, j'excelle dans la construction de systèmes backend rapides et efficaces et d'APIs. Je privilégie la scalabilité et les performances pour garantir une architecture backend robuste qui soutient des applications complexes.",
+    "backend_exp_desc": "Avec un accent sur le développement backend, j'excelle dans la création de systèmes backend rapides et efficaces et d'API. Je privilégie la scalabilité et les performances pour garantir une architecture backend robuste qui prend en charge des applications complexes.",
     "ui_exp": "Designer UI",
-    "ui_exp_desc": "En tant que designer UI, je dispose d'un portfolio solide de conception de pages de destination percutantes et de mise en œuvre de systèmes de design complets. Mon approche allie esthétique et convivialité, visant à créer des expériences numériques visuellement attrayantes et faciles à utiliser."
+    "ui_exp_desc": "En tant que designer UI, j'ai un solide portfolio de conception de pages de destination percutantes et de mise en œuvre de systèmes de conception complets. Mon approche combine esthétique et convivialité, visant à créer des expériences numériques visuellement attrayantes et conviviales."
   },
   "experience": {
     "title": "Expérience",
     "history": {
       "microsoftDynamics": {
-        "role": "Développeur CRM Microsoft Dynamics",
+        "role": "Développeur Microsoft Dynamics CRM",
         "organisation": "Espace Proprio",
         "startDate": "Avril 2022",
         "endDate": "Septembre 2023",
         "experiences": [
           "Configuré et développé des solutions au sein de Microsoft Dynamics CRM.",
           "Assuré la maintenance, l'évolution et la performance optimale des solutions mises en œuvre.",
-          "Rédigé des plans de déploiement pour les solutions et les ai communiqués efficacement.",
+          "Rédigé des plans de déploiement pour les solutions et les a communiqués efficacement.",
           "Documenté la mise en œuvre détaillée des fonctionnalités CRM."
         ]
       },
@@ -41,8 +41,8 @@
         "startDate": "Décembre 2021",
         "endDate": "Mars 2022",
         "experiences": [
-          "Conçu et implémenté des tests d'interface utilisateur à l'aide de Telerik Test Studio.",
-          "Spécialisé dans les applications .NET, Crystal-Net.",
+          "Conçu et mis en œuvre des tests d'interface utilisateur à l'aide de Telerik Test Studio.",
+          "Spécialisé dans l'application .NET, Crystal-Net.",
           "Collaboré au sein d'une équipe de développement agile."
         ]
       },
@@ -52,11 +52,43 @@
         "startDate": "Février 2016",
         "endDate": "Mai 2021",
         "experiences": [
-          "Développé des interfaces frontend et backend à l'aide de React, Vue.js, ou Angular.",
+          "Développé des interfaces front-end et back-end utilisant React, Vue.js ou Angular.",
           "Personnalisé des thèmes Drupal et WordPress pour répondre aux besoins des clients.",
           "Contribué à la communauté technique par le partage de connaissances et la documentation."
         ]
       }
     }
+  },
+  "projects": {
+    "title": "Projets",
+    "skills": {
+      "Tic_Tac_Toe": {
+        "title": "Tic Tac Toe",
+        "description": "Ce projet a été réalisé pour apprendre les derniers langages en construisant une application.",
+        "imageAlt": "Image de Tic Tac Toe"
+      },
+      "Project_B": {
+        "title": "Projet B",
+        "description": "Ce projet a été réalisé pour apprendre les derniers langages en construisant une application.",
+        "imageAlt": "Image du Projet B"
+      },
+      "Project_C": {
+        "title": "Projet C",
+        "description": "Ce projet a été réalisé pour apprendre les derniers langages en construisant une application.",
+        "imageAlt": "Image du Projet C"
+      }
+    },
+    "demoLink": "Démo",
+    "sourceLink": "Source"
+  },
+  "skills": {
+    "React": "React",
+    "Express": "Express",
+    "Node": "Node",
+    "Sass": "Sass"
+  },
+  "contact": {
+    "title": "Contact",
+    "memo": "N'hésitez pas à me contacter !"
   }
 }
