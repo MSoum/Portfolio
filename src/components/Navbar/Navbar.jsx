@@ -95,9 +95,6 @@ export const Navbar = () => {
               <GlobeIcon />
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li>
-                //<span className="dropdown-item-text">{t('language')}</span>
-              </li>
               {languages.map(({ code, name, country_code }) => (
                 <li key={country_code}>
                   <a
