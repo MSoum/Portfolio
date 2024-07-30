@@ -4,7 +4,8 @@
     "about": "About",
     "experience": "Experience",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "cv":"Download my resume"
   },
   "hero": {
     "name": "Hi, I'm Michael",

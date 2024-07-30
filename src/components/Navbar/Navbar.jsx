@@ -5,12 +5,28 @@ import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import cookies from 'js-cookie';
 import classNames from 'classnames';
-//import 'bootstrap/dist/css/bootstrap.min.css'
 // Direct import of CSS
 import '../../../node_modules/flag-icon-css/css/flag-icons.css';
 
-
+const PDF_FILE_URL = getImageUrl("cv/Michael_Soumah-CV.pdf")
 export const Navbar = () => {
+  
+  const downloadFileAtURL = (url) => {
+    fetch(url)
+      .then(response => response.blob())
+      .then(blob => {
+        const blobURL = window.URL.createObjectURL(blob);
+        const fileName = url.split('/').pop();
+        const aTag = document.createElement('a');
+        aTag.href = blobURL;
+        aTag.setAttribute('download', fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        document.body.removeChild(aTag);
+        window.URL.revokeObjectURL(blobURL); // Clean up
+      })
+      .catch(error => console.error('Error downloading file:', error));
+  };
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -79,6 +95,9 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#contact">{t('navbar.contact')}</a>
+          </li>
+          <li>
+            <button onClick={()=> {downloadFileAtURL(PDF_FILE_URL)}}type="button" class="btn btn-primary btn-sm">{t('navbar.cv')}</button>
           </li>
         </ul>
       </div>
